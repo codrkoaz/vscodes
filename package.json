@@ -1,0 +1,52 @@
+{
+	"name": "koazieclrs-theme",
+	"displayName": "KoazieCLRS Theme",
+	"description": "With the right colors, KoazieCLRS is a beautiful theme collection for your code editor.",
+	"publisher": "KoazieCLRS",
+	"author": {
+		"name": "Joza Smith"
+	},
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.66.0"
+	},
+	"galleryBanner": {
+		"color": "#84B2FE",
+		"theme": "dark"
+	},
+	"icon": "./images/k_logo.png",
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"color",
+		"koazieCLRS",
+		"light theme",
+		"dark theme",
+		"koazie",
+		"clrs",
+		"orange",
+		"blue",
+		"yellow",
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "deep sea dark (koazieCLRS)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/deep sea.json"
+			},
+			{
+				"label": "honey bee light (koazieCLRS)",
+				"uiTheme": "vs",
+				"path": "./themes/honey bee.json"
+			},
+			{
+				"label": "Orange Kisses light(koazieCLRS)",
+				"uiTheme": "vs",
+				"path": "./themes/Orange Kisses.json"
+			}
+		]
+	}
+}
