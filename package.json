@@ -1,12 +1,12 @@
 {
-	"name": "koazieclrs-theme",
-	"displayName": "KoazieCLRS Theme",
+	"name": "KoazieCLRS",
+	"displayName": "KoazieCLRS",
 	"description": "With the right colors, KoazieCLRS is a beautiful theme collection for your code editor.",
-	"publisher": "KoazieCLRS",
+	"publisher": "koazie",
 	"author": {
 		"name": "Joza Smith"
 	},
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.66.0"
 	},
@@ -14,7 +14,11 @@
 		"color": "#84B2FE",
 		"theme": "dark"
 	},
-	"icon": "./images/k_logo.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/koazie/vscodes.git"
+	},
+	"icon": "icon.png",
 	"categories": [
 		"Themes"
 	],
@@ -28,24 +32,29 @@
 		"clrs",
 		"orange",
 		"blue",
-		"yellow",
+		"yellow"
 	],
 	"contributes": {
 		"themes": [
 			{
-				"label": "deep sea dark (koazieCLRS)",
+				"label": "night rave (koazieCLRS)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/night rave.json"
+			},
+			{
+				"label": "deep sea (koazieCLRS)",
 				"uiTheme": "vs-dark",
 				"path": "./themes/deep sea.json"
 			},
 			{
-				"label": "honey bee light (koazieCLRS)",
+				"label": "honey bee (koazieCLRS)",
 				"uiTheme": "vs",
 				"path": "./themes/honey bee.json"
 			},
 			{
-				"label": "Orange Kisses light(koazieCLRS)",
+				"label": "orange kisses (koazieCLRS)",
 				"uiTheme": "vs",
-				"path": "./themes/Orange Kisses.json"
+				"path": "./themes/orange kisses.json"
 			}
 		]
 	}
