@@ -1,5 +1,6 @@
 .vscode/**
 .vscode-test/**
 .gitignore
+KoazieCLRS/**
 .vsix
 vsc-extension-quickstart.md
