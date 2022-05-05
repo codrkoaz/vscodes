@@ -5,3 +5,6 @@
 
 first release. Yee Buddy!!
 
+## 1.0.1 | 2022.02.04
+
+added another japanese garden to the KoazieCLRS collection.

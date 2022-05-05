@@ -1,6 +1,5 @@
 {
 	"name": "Japanese Garden",
-	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
 	"colors": {
 		"activityBar.background": "#0a0f0b",

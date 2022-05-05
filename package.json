@@ -6,7 +6,7 @@
 	"author": {
 		"name": "Joza Smith"
 	},
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"engines": {
 		"vscode": "^1.66.0"
 	},
@@ -37,24 +37,29 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "night rave (koazieCLRS)",
+				"label": "night rave",
 				"uiTheme": "vs-dark",
 				"path": "./themes/night rave.json"
 			},
 			{
-				"label": "deep sea (koazieCLRS)",
+				"label": "deep sea",
 				"uiTheme": "vs-dark",
 				"path": "./themes/deep sea.json"
 			},
 			{
-				"label": "honey bee (koazieCLRS)",
+				"label": "honey bee",
 				"uiTheme": "vs",
 				"path": "./themes/honey bee.json"
 			},
 			{
-				"label": "orange kisses (koazieCLRS)",
+				"label": "orange kisses",
 				"uiTheme": "vs",
 				"path": "./themes/orange kisses.json"
+			},
+			{
+				"label": "japanese garden",
+				"uiTheme": "vs-dark",
+				"path": "./themes/japanese garden.json"
 			}
 		]
 	}
