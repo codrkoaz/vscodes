@@ -1,0 +1,215 @@
+This is only for Zed Editor if you want to change anything these are the settings you will need to put in your setting json file.
+---------------------------------------------
+{
+  "cli_default_open_behavior": "existing_window",
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Aura Dark",
+  },
+
+  "theme_overrides": {
+    // ---------------- LIGHT MODE ---------------- //
+    "One Light": {
+      "editor.document_highlight.read_background": "#00000000",
+      "editor.document_highlight.write_background": "#00000000",
+      "border.variant": "#FAFAFA",
+      "border": "#FAFAFA",
+      "title_bar.background": "#FAFAFA",
+      "panel.background": "#FAFAFA",
+      "panel.focused_border": "#17151D",
+      "surface.background": "#FAFAFA",
+      "elevated_surface.background": "#FAFAFA",
+      "element.background": "#FAFAFA",
+      "element.hover": "#FAFAFA",
+      "element.active": "#FAFAFA",
+      "ghost_element.hover": "#FAFAFA",
+      "toolbar.background": "#FAFAFA",
+      "tab_bar.background": "#fafafa",
+      "editor.subheader.background": "#FAFAFA",
+      "title_bar.inactive_background": "#FAFAFA",
+      "terminal.background": "#FAFAFA",
+      "players": [
+        {
+          "cursor": "#2C2C2C",
+        },
+      ],
+      "syntax": {
+        "comment": {
+          "font_style": "italic",
+        },
+        "comment.doc": {
+          "font_style": "italic",
+        },
+      },
+    },
+
+    // ---------------- DARK MODE ----------------//
+    "Aura Dark": {
+      "editor.document_highlight.read_background": "#00000000",
+      "editor.document_highlight.write_background": "#00000000",
+      "border.variant": "#15141B",
+      "border": "#15141B",
+      "title_bar.background": "#15141B",
+      "panel.background": "#15141B",
+      "panel.focused_border": "#15141B",
+      "surface.background": "#15141B",
+      "elevated_surface.background": "#15141B",
+      "element.background": "#15141B",
+      "element.hover": "#15141B",
+      "element.active": "#15141B",
+      "toolbar.background": "#15141B",
+      "tab_bar.background": "#15141B",
+      "editor.subheader.background": "#15141B",
+      "title_bar.inactive_background": "#15141B",
+      "terminal.background": "#15141B",
+      "players": [
+        {
+          "cursor": "#bd0dff",
+        },
+      ],
+      "syntax": {
+        "comment": {
+          "font_style": "italic",
+        },
+        "comment.doc": {
+          "font_style": "italic",
+        },
+      },
+    },
+  },
+
+  // ---------------- GENERAL SETTINGS ----------------//
+
+  "icon_theme": "Warm Charmed Icons",
+
+  "session": {
+    "trust_all_worktrees": true,
+    "restore_unsaved_buffers": false,
+  },
+
+  "title_bar": {
+    "show_onboarding_banner": false,
+    "show_project_items": false,
+    "show_branch_name": false,
+    "show_user_menu": false,
+  },
+
+  "tab_bar": {
+    "show": false,
+  },
+
+  "toolbar": {
+    "quick_actions": false,
+  },
+
+  "status_bar": {
+    "experimental.show": false,
+  },
+
+  "project_panel": {
+    "dock": "right",
+    "default_width": 400,
+    "hide_root": true,
+    "auto_fold_dirs": false,
+    "starts_open": false,
+    "git_status": false,
+    "sticky_scroll": false,
+    "scrollbar": {
+      "show": "never",
+    },
+    "indent_guides": {
+      "show": "never",
+    },
+  },
+
+  "outline_panel": {
+    "default_width": 300,
+    "indent_guides": {
+      "show": "never",
+    },
+  },
+
+  "file_finder": {
+    "modal_max_width": "medium",
+  },
+
+  "scrollbar": {
+    "show": "never",
+  },
+
+  "gutter": {
+    "min_line_number_digits": 0,
+    "folds": false,
+    "runnables": false,
+    "breakpoints": false,
+    "bookmarks": false,
+  },
+
+  "indent_guides": {
+    "enabled": false,
+  },
+
+  "ui_font_family": "fira code",
+  "ui_font_size": 16,
+  "buffer_font_family": "fira code",
+  "buffer_font_size": 14,
+  "buffer_line_height": {
+    "custom": 2,
+  },
+  "agent": {
+    "threads_sidebar": {
+      "position": "right",
+    },
+  },
+  "agent_buffer_font_size": 20,
+
+  "multi_cursor_modifier": "cmd_or_ctrl",
+  "cursor_shape": "underline",
+  "cursor_blink": false,
+  "selection_highlight": false,
+
+  "drag_and_drop_selection": {
+    "enabled": false,
+  },
+
+  "seed_search_query_from_cursor": "never",
+  "current_line_highlight": "none",
+  "show_whitespaces": "none",
+  "tab_size": 2,
+  "auto_indent": "none",
+  "auto_indent_on_paste": false,
+  "show_completions_on_input": false,
+  "show_completion_documentation": false,
+  "inline_code_actions": false,
+  "lsp_document_colors": "background",
+  "hover_popover_enabled": false,
+  "format_on_save": "on",
+
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000,
+    },
+  },
+
+  "auto_update": false,
+  "extend_comment_on_newline": false,
+  "horizontal_scroll_margin": 1,
+  "vertical_scroll_margin": 1,
+  "when_closing_with_no_tabs": "keep_window_open",
+  "close_on_file_delete": true,
+  "restore_on_file_reopen": false,
+  "restore_on_startup": "empty_tab",
+
+  "git": {
+    "git_gutter": "hide",
+    "inline_blame": {
+      "enabled": false,
+    },
+  },
+
+  "centered_layout": {
+    "right_padding": 0.15,
+    "left_padding": 0.15,
+  },
+}
